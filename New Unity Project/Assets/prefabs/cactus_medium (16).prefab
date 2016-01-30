@@ -10,6 +10,7 @@ GameObject:
   - 4: {fileID: 431060}
   - 33: {fileID: 3355288}
   - 23: {fileID: 2362052}
+  - 136: {fileID: 13696428}
   m_Layer: 0
   m_Name: cactus_medium (16)
   m_TagString: Untagged
@@ -24,7 +25,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 190264}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 212.47821, y: 8.80148, z: 56.229996}
+  m_LocalPosition: {x: -3.1503296, y: -0.69864845, z: 3.8744507}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -62,6 +63,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 190264}
   m_Mesh: {fileID: 4300000, guid: e254345877481144facbd554a00451fd, type: 3}
+--- !u!136 &13696428
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 190264}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.3471696
+  m_Height: 0.26420534
+  m_Direction: 2
+  m_Center: {x: -0.03234601, y: 0.000000044703494, z: 0.1499972}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

@@ -10,4 +10,9 @@ public class Link : MonoBehaviour
 	{
 		Application.OpenURL ("http://globalgamejam.org/2016/jam-sites/est-de-la-france-epitech-nancy");
 	}
+
+	public void BackToMenu()
+	{
+		Application.LoadLevel (0);
+	}
 }
