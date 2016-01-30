@@ -9,6 +9,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 400056}
   - 95: {fileID: 9520334}
+  - 136: {fileID: 13629244}
+  - 114: {fileID: 11416140}
   m_Layer: 0
   m_Name: pnj
   m_TagString: Untagged
@@ -309,7 +311,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 111480}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 124.61, y: 10.7, z: 203.306}
+  m_LocalPosition: {x: 126.21817, y: 12.606264, z: 227.89081}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_Children:
   - {fileID: 479396}
@@ -579,6 +581,38 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11416140
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 111480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5903e8aedd150624dbc7a61e6ec5d740, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  answer:
+  - sdfs
+  - sqqssq
+  - sfs
+  - qsqsqssqdqsdqsd
+  - sqfsqfqs
+  - sqsfsq
+  put: {fileID: 0}
+--- !u!136 &13629244
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 111480}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 1.9014435
+  m_Height: 11.757303
+  m_Direction: 1
+  m_Center: {x: 0, y: 6.49, z: 4.84}
 --- !u!137 &13750008
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
