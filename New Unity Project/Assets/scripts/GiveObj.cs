@@ -14,7 +14,7 @@ public class GiveObj : MonoBehaviour {
 
 	}
 	void OnTriggerStay(Collider other) {
-	if (Input.GetKey (KeyCode.M)) {
+	if (Input.GetKey (KeyCode.E)) {
 
 		playerController.List.Remove (gameObject.name);
 		}
