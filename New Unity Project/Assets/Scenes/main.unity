@@ -2567,8 +2567,8 @@ MonoBehaviour:
   lines:
   - Bonjour
   - Comment vas-tu ?
-  - blblabla caillou
-  - Merci d'avance
+  - Cette chaleur ... je ne m'y ferais jamais
+  - "La legende dit qu'il y \xE0 un coffre dans ce monde"
   isTalking: 0
 --- !u!136 &288277860
 CapsuleCollider:
@@ -3346,19 +3346,23 @@ Prefab:
       objectReference: {fileID: 2100000, guid: 2948f9cdd05458f43b7c429ca9cb7846, type: 2}
     - target: {fileID: 11416140, guid: 410f1216367c30746820a9bf2bd9b4e9, type: 2}
       propertyPath: lines.Array.data[0]
-      value: Bonjour
+      value: Je mangerais bien un bon steak de cheval
       objectReference: {fileID: 0}
     - target: {fileID: 11416140, guid: 410f1216367c30746820a9bf2bd9b4e9, type: 2}
       propertyPath: lines.Array.data[1]
-      value: Comment vas-tu
+      value: "Le probl\xE8me du temps c'est un non probl\xE8me"
       objectReference: {fileID: 0}
     - target: {fileID: 11416140, guid: 410f1216367c30746820a9bf2bd9b4e9, type: 2}
       propertyPath: lines.Array.data[2]
-      value: blablabla glace
+      value: L'administration d'Epitech c'est un peu comme un projet Tek 2
       objectReference: {fileID: 0}
     - target: {fileID: 11416140, guid: 410f1216367c30746820a9bf2bd9b4e9, type: 2}
       propertyPath: lines.Array.data[3]
-      value: lel
+      value: "c'est mal fais des deux cot\xE9s"
+      objectReference: {fileID: 0}
+    - target: {fileID: 11416140, guid: 410f1216367c30746820a9bf2bd9b4e9, type: 2}
+      propertyPath: isTalking
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 410f1216367c30746820a9bf2bd9b4e9, type: 2}
@@ -3736,19 +3740,19 @@ Prefab:
       objectReference: {fileID: 2100000, guid: 2948f9cdd05458f43b7c429ca9cb7846, type: 2}
     - target: {fileID: 11416140, guid: 410f1216367c30746820a9bf2bd9b4e9, type: 2}
       propertyPath: lines.Array.data[0]
-      value: fuck
+      value: Tu perd
       objectReference: {fileID: 0}
     - target: {fileID: 11416140, guid: 410f1216367c30746820a9bf2bd9b4e9, type: 2}
       propertyPath: lines.Array.data[1]
-      value: "fuck\xB2"
+      value: Le respect est dans le nez de Pierre
       objectReference: {fileID: 0}
     - target: {fileID: 11416140, guid: 410f1216367c30746820a9bf2bd9b4e9, type: 2}
       propertyPath: lines.Array.data[2]
-      value: Need stick
+      value: Quand on tire on racompte pas sa vie
       objectReference: {fileID: 0}
     - target: {fileID: 11416140, guid: 410f1216367c30746820a9bf2bd9b4e9, type: 2}
       propertyPath: lines.Array.data[3]
-      value: batard
+      value: J'aime bien les Pierres
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 410f1216367c30746820a9bf2bd9b4e9, type: 2}
@@ -5270,19 +5274,19 @@ Prefab:
       objectReference: {fileID: 2100000, guid: 2948f9cdd05458f43b7c429ca9cb7846, type: 2}
     - target: {fileID: 11416140, guid: 410f1216367c30746820a9bf2bd9b4e9, type: 2}
       propertyPath: lines.Array.data[0]
-      value: yo
+      value: "Jesus meurs \xE0 la fin de la Bible"
       objectReference: {fileID: 0}
     - target: {fileID: 11416140, guid: 410f1216367c30746820a9bf2bd9b4e9, type: 2}
       propertyPath: lines.Array.data[1]
-      value: sup
+      value: Dans ces plaines vit un puissant demon
       objectReference: {fileID: 0}
     - target: {fileID: 11416140, guid: 410f1216367c30746820a9bf2bd9b4e9, type: 2}
       propertyPath: lines.Array.data[2]
-      value: fire torch now
+      value: Son nom est .... Git
       objectReference: {fileID: 0}
     - target: {fileID: 11416140, guid: 410f1216367c30746820a9bf2bd9b4e9, type: 2}
       propertyPath: lines.Array.data[3]
-      value: lel
+      value: "Il faut \xEAtre du niveau 7 pour l'affronter"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 410f1216367c30746820a9bf2bd9b4e9, type: 2}
@@ -5380,7 +5384,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   talkers:
-  - {fileID: 0}
+  - {fileID: 288277859}
   - {fileID: 310160494}
   - {fileID: 1408287572}
   - {fileID: 958830481}
@@ -14797,11 +14801,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11416140, guid: 410f1216367c30746820a9bf2bd9b4e9, type: 2}
       propertyPath: lines.Array.data[2]
-      value: pizza > all
+      value: Va voir Phillipe Roger
       objectReference: {fileID: 0}
     - target: {fileID: 11416140, guid: 410f1216367c30746820a9bf2bd9b4e9, type: 2}
       propertyPath: lines.Array.data[3]
-      value: Bonne chance
+      value: "Il habite dans les \xE9goux"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 410f1216367c30746820a9bf2bd9b4e9, type: 2}
