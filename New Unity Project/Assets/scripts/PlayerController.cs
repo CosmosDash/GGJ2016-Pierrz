@@ -9,6 +9,9 @@ public class PlayerController : MonoBehaviour
 
     public float MoveSpeed;
     public float RotationSpeed;
+
+    public GameObject followedBy = null;
+
     CharacterController cc;
 
     Animator m_anim;

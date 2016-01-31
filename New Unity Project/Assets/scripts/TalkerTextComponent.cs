@@ -29,16 +29,19 @@ public class TalkerTextComponent : MonoBehaviour
 
         m_isTalking = true;
 
-        GetComponent<Image>().color = new Color(1, 1, 1, 0.4f);
-
-        foreach (string line in p_talker.lines)
+        if (p_talker.lines.Length > 0)
         {
-            m_text.text = line;
-            yield return new WaitForSeconds(1.5f);
-        }
+            GetComponent<Image>().color = new Color(1, 1, 1, 0.4f);
 
-        m_text.text = string.Empty;
-        GetComponent<Image>().color = new Color(1, 1, 1, 0);
+            foreach (string line in p_talker.lines)
+            {
+                m_text.text = line;
+                yield return new WaitForSeconds(1.5f);
+            }
+
+            m_text.text = string.Empty;
+            GetComponent<Image>().color = new Color(1, 1, 1, 0);
+        }
 
         m_isTalking = false;
 

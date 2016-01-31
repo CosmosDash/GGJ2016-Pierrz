@@ -9,6 +9,7 @@ public class PnjController : MonoBehaviour
     public float RotationSpeed;
 
     public GameObject objectToFollow = null;
+    public GameObject followedBy = null;
 
     CharacterController cc;
 
