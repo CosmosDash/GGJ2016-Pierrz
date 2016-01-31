@@ -8,7 +8,7 @@ public class TakeObj : MonoBehaviour
 	public PlayerController playerController;
 
 	void Update() {
-		transform.Rotate(3, 1, 0);
+		transform.Rotate(3, 1, 2);
 	}
 
 	void OnTriggerStay() 
