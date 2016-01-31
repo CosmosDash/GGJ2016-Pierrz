@@ -2732,7 +2732,7 @@ MonoBehaviour:
   - Bonjour
   - Comment vas-tu ?
   - Je cherche une pierre
-  - 'Il y en a une dans la grotte '
+  - "Il doit y en avoir l\xE0 d'o\xF9 tu es venu !"
   isTalking: 0
 --- !u!136 &288277860
 CapsuleCollider:
@@ -2809,7 +2809,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -4105,7 +4105,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11416140, guid: 410f1216367c30746820a9bf2bd9b4e9, type: 2}
       propertyPath: lines.Array.data[3]
-      value: "Dans la for\xEAt"
+      value: "Si tu ne le trouves pas, la for\xEAt doit en \xEAtre remplie"
       objectReference: {fileID: 0}
     - target: {fileID: 111480, guid: 410f1216367c30746820a9bf2bd9b4e9, type: 2}
       propertyPath: m_TagString
@@ -5693,7 +5693,7 @@ Prefab:
       objectReference: {fileID: 2100000, guid: 2948f9cdd05458f43b7c429ca9cb7846, type: 2}
     - target: {fileID: 11416140, guid: 410f1216367c30746820a9bf2bd9b4e9, type: 2}
       propertyPath: lines.Array.data[0]
-      value: Ah mince , je n'es plus de torche
+      value: Ah mince , je n'ai plus de torche
       objectReference: {fileID: 0}
     - target: {fileID: 11416140, guid: 410f1216367c30746820a9bf2bd9b4e9, type: 2}
       propertyPath: lines.Array.data[1]
@@ -11027,7 +11027,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -11536,7 +11536,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -12156,7 +12156,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   spreadCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -12167,7 +12167,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -12178,7 +12178,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
 --- !u!114 &1362709610
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14068,7 +14068,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -15941,7 +15941,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11416140, guid: 410f1216367c30746820a9bf2bd9b4e9, type: 2}
       propertyPath: lines.Array.data[3]
-      value: Et done moi une pizza
+      value: "Le p\xEAcheur y a s\xFBrement laiss\xE9 son repas"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 410f1216367c30746820a9bf2bd9b4e9, type: 2}
@@ -16756,7 +16756,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
