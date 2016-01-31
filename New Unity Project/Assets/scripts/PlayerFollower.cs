@@ -17,7 +17,7 @@ public class PlayerFollower : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 translation = (player.transform.position - 2 * player.transform.forward + 2 * player.transform.up + -2 * player.transform.right * Input.GetAxis("Horizontal")) - transform.position;
+        Vector3 translation = (player.transform.position - 4 * player.transform.forward + 4 * player.transform.up + -4 * player.transform.right * Input.GetAxis("Horizontal")) - transform.position;
         if (translation.magnitude > 0.1f)
         {
             transform.Translate((translation.magnitude > 1 ? translation.normalized : translation) * Time.deltaTime * 11, Space.World);

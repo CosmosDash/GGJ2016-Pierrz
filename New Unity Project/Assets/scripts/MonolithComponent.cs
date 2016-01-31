@@ -12,10 +12,6 @@ public class MonolithComponent : MonoBehaviour
 
     IEnumerator waitAndLoad()
     {
-        AudioSource audioSource = GetComponents<AudioSource>()[1];
-
-        audioSource.Play();
-
         yield return new WaitForSeconds(5);
 
         Application.LoadLevel(3);
