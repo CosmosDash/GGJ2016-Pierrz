@@ -22,7 +22,7 @@ public class GiveObject : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            if (Input.GetKey(KeyCode.M))
+			if (Input.GetKey(KeyCode.E) || Input.GetKey(KeyCode.JoystickButton0))
             {
                 if (playerController.List.Contains(questObjectName))
                 {
