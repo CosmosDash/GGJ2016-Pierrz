@@ -1247,37 +1247,37 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'BENOIT BRUNAUD
 
-    - Game Design & Sound -
+    - Game Design & Sound & stuff -
 
 
     PHILIPPE LALLEMENT
 
-    - Game design & UI -
+    - Game design & UI & stuff-
 
 
     Severine Febvet
 
-    - lead graphics & 3D artist -
+    - lead graphics & 3D artist & stuff -
 
 
     Romain Franck
 
-    - 3D artist & animations -
+    - 3D artist & animations & stuff -
 
 
     Loic Miest
 
-    - Programmer -
+    - Programmer & stuff -
 
 
     Alexandre Sejournant
 
-    - graphics & sound -
+    - graphics & sound & stuff -
 
 
     Stephanie Forest
 
-    - 3D artist -'
+    - 3D artist & stuff -'
 --- !u!222 &1069399315
 CanvasRenderer:
   m_ObjectHideFlags: 0
