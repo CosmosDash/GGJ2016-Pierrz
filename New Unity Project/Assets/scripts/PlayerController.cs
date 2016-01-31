@@ -12,11 +12,12 @@ public class PlayerController : MonoBehaviour
     CharacterController cc;
 
     Animator m_anim;
+	AudioSource source;
 
     // Use this for initialization
     void Start()
     {
-
+		source = GetComponent<AudioSource> ();
         m_anim = GetComponent<Animator>();
         cc = GetComponent<CharacterController>();
     }
@@ -26,11 +27,18 @@ public class PlayerController : MonoBehaviour
     {
         Vector3 forward =  transform.forward * Input.GetAxis("Vertical") * MoveSpeed;
 
+		Debug.Log (forward.x + " " + forward.y + " " + forward.z);
+
         if (Input.GetAxis("Vertical") < 0)
         {
             forward /= 3;
         }
-
+			
+		if (forward == Vector3.zero)
+			source.Stop();
+		else if (!source.isPlaying)
+			source.Play ();
+			
         cc.Move(forward * Time.deltaTime);
         cc.SimpleMove(Physics.gravity);
 
