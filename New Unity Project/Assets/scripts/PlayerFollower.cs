@@ -20,7 +20,7 @@ public class PlayerFollower : MonoBehaviour
         Vector3 translation = (player.transform.position - 2 * player.transform.forward + 2 * player.transform.up + -2 * player.transform.right * Input.GetAxis("Horizontal")) - transform.position;
         if (translation.magnitude > 0.1f)
         {
-            transform.Translate((translation.magnitude > 1 ? translation.normalized : translation) * Time.deltaTime * 5, Space.World);
+            transform.Translate((translation.magnitude > 1 ? translation.normalized : translation) * Time.deltaTime * 11, Space.World);
         }
         transform.LookAt(player.transform.position + Vector3.up * 1.5f);
     }
