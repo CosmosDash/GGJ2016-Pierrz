@@ -8,7 +8,7 @@ public class Link : MonoBehaviour
 
 	public void LoadLink()
 	{
-		Application.OpenURL ("http://globalgamejam.org/2016/jam-sites/est-de-la-france-epitech-nancy");
+		Application.OpenURL ("http://globalgamejam.org/2016/games/pierrz");
 	}
 
 	public void BackToMenu()
