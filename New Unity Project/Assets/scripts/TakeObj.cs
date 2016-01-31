@@ -13,7 +13,7 @@ public class TakeObj : MonoBehaviour
 
 	void OnTriggerStay() 
 	{
-		if (Input.GetKey (KeyCode.T)) {
+		if (Input.GetKey (KeyCode.E)) {
 			playerController.List.Add (gameObject.name);
 			Destroy (this.gameObject);
 		}
