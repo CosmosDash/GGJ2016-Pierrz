@@ -18,10 +18,11 @@ public class PlayerFollower : MonoBehaviour
     void Update()
     {
         Vector3 translation = (player.transform.position - 4 * player.transform.forward + 4 * player.transform.up + -4 * player.transform.right * Input.GetAxis("Horizontal")) - transform.position;
-        if (translation.magnitude > 0.1f)
+        if (translation.magnitude > 0.5f)
         {
             transform.Translate((translation.magnitude > 1 ? translation.normalized : translation) * Time.deltaTime * 11, Space.World);
         }
+
         transform.LookAt(player.transform.position + Vector3.up * 1.5f);
     }
 }

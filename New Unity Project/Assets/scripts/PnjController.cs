@@ -39,11 +39,16 @@ public class PnjController : MonoBehaviour
 
             if (Vector3.Distance(transform.position, objectToFollow.transform.position) > 1.5f)
             {
+                if (Vector3.Distance(transform.position, objectToFollow.transform.position) < 5)
+                {
+                    forward *= (Vector3.Distance(transform.position, objectToFollow.transform.position) - 1) / 4;
+                    speed *= (Vector3.Distance(transform.position, objectToFollow.transform.position) - 1) / 4;
+                }
                 cc.Move(forward * Time.deltaTime);
             }
             else
             {
-                speed = Mathf.Min(0, speed - 1);
+                speed = 0;
             }
 
             cc.SimpleMove(Physics.gravity);
